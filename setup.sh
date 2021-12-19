@@ -13,7 +13,7 @@ git clone https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15.git
 cp Adafruit_CircuitPython_ADS1x15/examples/ads1x15_simpletest.py ~/Desktop/EMGRec/adc.py
 
 # matplotlib
-sudo apt-get install libatlas-base-dev
+sudo apt-get install libatlas-base-dev -y
 pip install matplotlib
 pip install -U numpy
 
