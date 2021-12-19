@@ -19,5 +19,4 @@ pip install -U numpy
 
 # setting aliases
 echo -e "alias lab='cd ~/Desktop/EMGRec'\n" >> ~/.bash_aliases
-
 source ~/.bashrc
