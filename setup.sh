@@ -1,5 +1,5 @@
 sudo apt-get update && sudo apt-get upgrade
-
+sudo apt-get install vim
 # setting aliases
 echo -e "alias lab='cd ~/Desktop/EMGRec'\n" >> ~/.bash_aliases
 source ~/.bashrc
