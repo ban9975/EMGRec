@@ -15,3 +15,4 @@ cp Adafruit_CircuitPython_ADS1x15/examples/ads1x15_simpletest.py ~/Desktop/gestu
 # matplotlib
 apt-get install libatlas-base-dev
 pip install matplotlib
+pip install -U numpy
