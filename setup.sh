@@ -9,7 +9,7 @@ sudo apt-get install vim -y
 
 # adc
 pip install adafruit-circuitpython-ads1x15
-cd ~/Desktop
+cd /home/pi/Desktop
 git clone https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15.git
 cp Adafruit_CircuitPython_ADS1x15/examples/ads1x15_simpletest.py /home/pi/Desktop/EMGRec/adc.py
 
