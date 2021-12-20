@@ -19,5 +19,5 @@ pip install matplotlib
 pip install -U numpy
 
 # setting aliases
-# echo -e "alias lab='cd ~/Desktop/EMGRec'\n" >> ~/.bash_aliases
-# source ~/.bashrc
+echo -e "alias lab='cd ~/Desktop/EMGRec'\n" >> /home/pi/.bash_aliases
+source /home/pi/.bashrc
