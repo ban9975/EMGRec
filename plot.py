@@ -28,6 +28,6 @@ def animate(i):
 	plt.plot(x, y)
 
 
-ani = FuncAnimation(plt.gcf(), animate, interval=50)
+ani = FuncAnimation(plt.gcf(), animate, interval=10)
 plt.tight_layout()
 plt.show()

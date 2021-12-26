@@ -6,12 +6,12 @@ import busio
 import adafruit_ads1x15.ads1015 as ADS
 from adafruit_ads1x15.analog_in import AnalogIn
 
-if len(sys.argv) >= 1:
+if len(sys.argv) >= 2:
 	fileName = sys.argv[1] + '.csv'
 else:
 	fileName = 'output.csv'
 
-if len(sys.argv) >= 2:
+if len(sys.argv) >= 3:
 	duration = int(sys.argv[2])
 else:
 	# default collect data for 5 seconds
